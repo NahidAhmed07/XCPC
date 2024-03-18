@@ -1,12 +1,4 @@
-/*
- * File Created: Friday, 15th March 2024 2:31:28 pm
- * Author: NahidAhmed07 (mdnahidahmed2002@gmail.com)
- * -----
- * Last Modified: Friday, 15th March 2024 2:31:41 pm
- * Modified By: NahidAhmed07 (mdnahidahmed2002@gmail.com)
- * -----
- * Copyright  - 2024 By https://nahidahmed.netlify.app
- */
+
 
 #include <bits/stdc++.h>
 

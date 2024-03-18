@@ -1,12 +1,4 @@
-/*
- * File Created: Sunday, 17th March 2024 10:52:22 am
- * Author: NahidAhmed07 (mdnahidahmed2002@gmail.com)
- * -----
- * Last Modified: Sunday, 17th March 2024 10:52:25 am
- * Modified By: NahidAhmed07 (mdnahidahmed2002@gmail.com)
- * -----
- * Copyright  - 2024 By https://nahidahmed.netlify.app
- */
+
 
 // ########### Not Accepted ###################
 
