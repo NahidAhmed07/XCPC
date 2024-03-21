@@ -19,6 +19,7 @@ int search(string pat, string txt)
     while (r < n)
     {
         feq2[int(txt[r] - 'a')]++;
+
         if ((r - l + 1) == k)
         {
             if (feq == feq2)
