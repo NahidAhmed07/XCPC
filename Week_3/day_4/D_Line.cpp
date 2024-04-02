@@ -55,37 +55,35 @@ void solve()
                 L_cur_sum += ((n - l - 1) - l);
                 take = true;
             }
+            else
+            {
+                l++;
+            }
 
             if (s[r] == 'R')
             {
                 R_cur_sum += (r - (n - (r + 1)));
                 take = true;
             }
+            else
+            {
+                r--;
+            }
 
             if (take)
             {
                 break;
             }
-            else
-            {
-                l++;
-                r--;
-            }
         }
 
-        if (L_cur_sum > R_cur_sum && L_cur_sum > mx_val)
+        if (L_cur_sum >= R_cur_sum)
         {
             mx_val = max(L_cur_sum, mx_val);
             l++;
         }
-        else if (R_cur_sum > mx_val)
-        {
-            mx_val = max(R_cur_sum, mx_val);
-            r--;
-        }
         else
         {
-            l++;
+            mx_val = max(R_cur_sum, mx_val);
             r--;
         }
 
