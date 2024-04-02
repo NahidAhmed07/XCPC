@@ -21,7 +21,7 @@ int main()
 }
 void solve()
 {
-    int n, k, t;
+    long long n, k, t;
     cin >> n >> k >> t;
     int a[n];
     for (int i = 0; i < n; i++)
@@ -30,7 +30,7 @@ void solve()
     }
 
     int r = 0;
-    int ans = 0;
+    long long ans = 0;
     int cur_sz = 0;
 
     while (r < n)
@@ -42,7 +42,7 @@ void solve()
             r++;
             if (cur_sz >= k)
             {
-                ans += (cur_sz / k);
+                ans += (cur_sz - k) + 1;
             }
         }
         else
