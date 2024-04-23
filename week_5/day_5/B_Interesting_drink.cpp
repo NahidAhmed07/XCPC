@@ -4,11 +4,9 @@ using namespace std;
 
 int main()
 {
-
     int n;
     cin >> n;
     vector<int> v(n);
-
     for (int i = 0; i < n; i++)
     {
         cin >> v[i];
@@ -20,13 +18,12 @@ int main()
     cin >> q;
     while (q--)
     {
-        int l, r;
-        cin >> l >> r;
+        int x;
+        cin >> x;
+        int ans = (upper_bound(v.begin(), v.end(), x) - v.begin());
 
-        auto it_l = lower_bound(v.begin(), v.end(), l);
-
-        // auto it_r = up
-        }
+        cout << ans << endl;
+    }
 
     return 0;
 }
