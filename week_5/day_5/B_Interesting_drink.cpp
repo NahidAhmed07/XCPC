@@ -21,7 +21,6 @@ int main()
         int x;
         cin >> x;
         int ans = (upper_bound(v.begin(), v.end(), x) - v.begin());
-
         cout << ans << endl;
     }
 
